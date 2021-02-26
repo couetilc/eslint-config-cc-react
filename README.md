@@ -9,7 +9,7 @@ emphasizing correctness rather than style, as a shareable
 1) Install this package using `npm`.
 
 ```sh
-npm i -d eslint-config-cc-react eslint eslint-plugin-node eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
+npm install --save-dev eslint-config-cc-react eslint eslint-plugin-node eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
 ```
 
 2) Open or create an eslint configuration and add the property `extends: "eslint-config-cc-react`.
