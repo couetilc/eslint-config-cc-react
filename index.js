@@ -6,6 +6,8 @@ module.exports = {
     "plugin:jsx-a11y/recommended",
   ],
   parserOptions: {
+    ecmaVersion: '2021',
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     }
