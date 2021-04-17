@@ -28,10 +28,10 @@ Steps to publish a new version of this package to NPM:
 ```sh
 # 1. Increment the version number in `package.json`
 git add package.json && git commit -m "bump version to X.X.X"
-# 2. Push your updates to `master` branch at https://github.com/couetilc/eslint-config-cc-react
-git push origin master
-# 3. Create and publish a new release from the `master` branch
-hub release create -t origin/master -m "vX.X.X" "vX.X.X"
+# 2. Push your updates to `main` branch at https://github.com/couetilc/eslint-config-cc-react
+git push origin main
+# 3. Create and publish a new release from the `main` branch
+hub release create -t origin/main -m "vX.X.X" "vX.X.X"
 ```
 
 Increment the package version number according to [Semantic Versioning](https://semver.org/).
